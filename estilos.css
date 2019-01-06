@@ -1,14 +1,14 @@
 body{
     font-size: 21px;
     font-family: Arial, Helvetica, sans-serif;
-    text-align: justify;
+    text-align: justify; /*Texto justificado*/
     margin-top: 0;
     background-color: #F2FFF4;
 }
-section:nth-of-type(odd){
+section:nth-of-type(odd){     /*Las secciones impares tienen un color de fondo azul más oscuro*/
     background-color: #E3E0FF ;
 }
-header{
+header{                   /*El texto de la cabecera sale centrado*/
     text-align: center;
 }
 img{
@@ -18,15 +18,15 @@ img{
 h1{
     font-size: 2em;
 }
-h2{
+h2{                                 /*Línea debajo de todos los h2*/
     border-bottom: 2px solid #6277E8;
     font-size: 1.5em;
 }
-a:hover{
+a:hover{                            /*Al acercar el ratón a un enlace se pone en cursiva y el fondo se pone de color khaki*/
     background-color: khaki;
     transition: 1s;
     font-style: italic;
 }
 footer{
-    border-top: 1px solid #001360;
+    border-top: 1px solid #001360;      /*Pie de página*/
 }
